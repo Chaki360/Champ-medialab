@@ -22,44 +22,44 @@
     },
     {
         "id": 4,
-        "packageName": "STORYTELLING",
-        "price": "$2550",
+        "packageName": "STANDARD",
+        "price": "$1140",
         "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
-        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+        "image": "https://images.unsplash.com/photo-1536010447069-d2c8af80c584?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
     },
     {
         "id": 5,
-        "packageName": "STORYTELLING",
-        "price": "$2550",
+        "packageName": "WEDDING THEME",
+        "price": "$2950",
         "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
-        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+        "image": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
     },
     {
         "id": 6,
-        "packageName": "STORYTELLING",
-        "price": "$2550",
+        "packageName": "BRIDAL PARTY",
+        "price": "$2147",
         "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
-        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+        "image": "https://www.eivans.com/wp-content/uploads/2021/11/engagement-photo-locations-milwaukee-001.jpg"
     },
     {
         "id": 7,
-        "packageName": "STORYTELLING",
-        "price": "$2550",
+        "packageName": "WEDDING INVITATION CARD",
+        "price": "$170",
         "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
-        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+        "image": "https://www.eivans.com/wp-content/uploads/2021/06/prepare-your-wedding-invitations-001.jpg"
     },
     {
         "id": 8,
-        "packageName": "STORYTELLING",
-        "price": "$2550",
+        "packageName": "ENGAGEMENT PACKAGE",
+        "price": "$750",
         "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
-        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+        "image": "https://www.eivans.com/wp-content/uploads/2021/11/engagement-photo-locations-long-island-001.jpg"
     },
     {
         "id": 9,
-        "packageName": "STORYTELLING",
-        "price": "$2550",
+        "packageName": "GROUP PHOTOS",
+        "price": "$500",
         "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
-        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+        "image": "https://www.eivans.com/wp-content/uploads/2021/05/how-to-choose-wedding-theme-001.jpg"
     }
 ]

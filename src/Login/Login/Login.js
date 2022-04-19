@@ -4,6 +4,7 @@ import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword } from
 import './Login.css'
 import auth from '../../Firebase/Firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import { sendPasswordResetEmail } from 'firebase/auth';
 
 const Login = () => {
     const location = useLocation();
@@ -32,6 +33,11 @@ const Login = () => {
     if (user) {
         navigate(from, { replace: true });
     }
+    const resetPassword = async () => {
+        const email = emailRef.current.value;
+        await sendPasswordResetEmail(email)
+        alert('Email Sent')
+    }
     return (
         <div className='login-form'>
             <h2 className='mb-4 text-bold text-center text-5xl text-orange-600'>Please Login</h2>
@@ -41,6 +47,7 @@ const Login = () => {
                 <input className='rounded text-2xl text-center text-white bg-orange-500 hover:bg-orange-700' type="submit" value="Login to your account" />
             </form>
             <h1 className='text-lg'>New to Champ PhotoLab?<span className=' text-red-500 hover:text-gray-700' onClick={navigateRegister}>Please Register</span></h1>
+            <h1 className='text-lg'>Forgot your password?<span className=' text-red-500 hover:text-gray-700' onClick={resetPassword}>Reset Now</span></h1>
             <SocialLogin></SocialLogin>
         </div>
     );

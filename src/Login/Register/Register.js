@@ -1,6 +1,6 @@
 
 import React, { useRef } from 'react';
-import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword, } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useSendPasswordResetEmail, useSignInWithEmailAndPassword, useUpdateProfile, } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../Firebase/Firebase.init';
 import './Register.css'
@@ -13,8 +13,8 @@ const Register = () => {
         createUserWithEmailAndPassword,
         user,
         loading,
-        error,] = useCreateUserWithEmailAndPassword(auth);
-
+        error,] = useCreateUserWithEmailAndPassword(auth, { emailVerificationOptions: true });
+    const [updateProfile, updating, UpdateError] = useUpdateProfile(auth);
     const handleRegister = e => {
         e.preventDefault();
         const name = nameRef.current.value
