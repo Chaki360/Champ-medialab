@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "packageName": "CLASSIC",
+        "price": "$525",
+        "details": "Video Coverage for 4 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page, 10X10 Wedding Photo Album",
+        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-041.jpg"
+    },
+    {
+        "id": 2,
+        "packageName": "EXCLUSIVE",
+        "price": "$1545",
+        "details": "Video Coverage for 4 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page, 10X10 Wedding Photo Album,All Edited High-Resolution Copyright Released Digital Photo Files,Unlimited Photos & Video Captured ",
+        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-037.jpg"
+    },
+    {
+        "id": 3,
+        "packageName": "STORYTELLING",
+        "price": "$2550",
+        "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
+        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+    },
+    {
+        "id": 4,
+        "packageName": "STORYTELLING",
+        "price": "$2550",
+        "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
+        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+    },
+    {
+        "id": 5,
+        "packageName": "STORYTELLING",
+        "price": "$2550",
+        "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
+        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+    },
+    {
+        "id": 6,
+        "packageName": "STORYTELLING",
+        "price": "$2550",
+        "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
+        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+    },
+    {
+        "id": 7,
+        "packageName": "STORYTELLING",
+        "price": "$2550",
+        "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
+        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+    },
+    {
+        "id": 8,
+        "packageName": "STORYTELLING",
+        "price": "$2550",
+        "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
+        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+    },
+    {
+        "id": 9,
+        "packageName": "STORYTELLING",
+        "price": "$2550",
+        "details": "Video Coverage for 15 Hours,Unlimited Coverage Locations,Unlimited Photos & Video Captured,30 Page,A 60-90 Minute Cinematic Feature Film,Raw Unedited Video Files,All Edited High-Resolution Copyright Released Digital Photo Files",
+        "image": "https://www.eivans.com/wp-content/uploads/2020/05/wedding-photography-pictures-027.jpg"
+    }
+]
