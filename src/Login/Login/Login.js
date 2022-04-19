@@ -1,15 +1,24 @@
 import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Login.css'
+import auth from '../../Firebase/Firebase.init';
 
 const Login = () => {
+
+    const [
+        signInWithEmailAndPassword,
+        user,
+        loading,
+        error,
+    ] = useSignInWithEmailAndPassword(auth);
     const emailRef = useRef('');
     const passwordRef = useRef('');
     const handleLogin = e => {
         e.preventDefault();
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-
+        signInWithEmailAndPassword(email, password)
     }
 
 
@@ -17,6 +26,9 @@ const Login = () => {
     const navigate = useNavigate()
     const navigateRegister = e => {
         navigate('/register')
+    }
+    if (user) {
+        navigate('/blogs')
     }
     return (
         <div className='login-form'>

@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword } from 'firebase/auth';
+
 import React, { useRef } from 'react';
 import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword, } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
@@ -10,23 +10,25 @@ const Register = () => {
     const passwordRef = useRef('');
 
     const [
-        signInWithEmailAndPassword,
+        createUserWithEmailAndPassword,
         user,
         loading,
-        error,
-    ] = useSignInWithEmailAndPassword(auth);
+        error,] = useCreateUserWithEmailAndPassword(auth);
 
     const handleRegister = e => {
         e.preventDefault();
         const name = nameRef.current.value
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-        createUserWithEmailAndPassword(email, password)
+        createUserWithEmailAndPassword(name, email, password);
 
     }
     const navigate = useNavigate()
     const navigateLogin = e => {
         navigate('/login')
+    }
+    if (user) {
+        navigate('/')
     }
 
     return (
