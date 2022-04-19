@@ -1,11 +1,13 @@
 import React, { useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Login.css'
 import auth from '../../Firebase/Firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
-
+    const location = useLocation();
+    let from = location.state?.from?.pathname || "/";
     const [
         signInWithEmailAndPassword,
         user,
@@ -28,7 +30,7 @@ const Login = () => {
         navigate('/register')
     }
     if (user) {
-        navigate('/blogs')
+        navigate(from, { replace: true });
     }
     return (
         <div className='login-form'>
@@ -39,7 +41,7 @@ const Login = () => {
                 <input className='rounded text-2xl text-center text-white bg-orange-500 hover:bg-orange-700' type="submit" value="Login to your account" />
             </form>
             <h1 className='text-lg'>New to Champ PhotoLab?<span className=' text-red-500 hover:text-gray-700' onClick={navigateRegister}>Please Register</span></h1>
-
+            <SocialLogin></SocialLogin>
         </div>
     );
 };

@@ -22,7 +22,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <h2 className='text-4xl mb-4 mt-4 text-center font-extrabold text-orange-500'>Our Services</h2>
+            <h2 className='text-4xl mb-4 mt-4 text-center font-extrabold text-orange-500'>My Services</h2>
             <div className='grid grid-cols-2 gap-3 mt-6'>
                 {services.map(service => <ServiceData key={service.id} service={service}></ServiceData>)}
             </div>

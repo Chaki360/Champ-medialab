@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div>
-            <p className='text-bold text-lg'>You’ve worked very hard planning for your “Big Day”. You almost want everything to go flawless. There will be so much happening that day. The last thing you should worry about if everything is being documented properly. That’s why we recommend you full day coverage package – one less thing for you to worry about. We will be with you from the very beginning of your day till the end. That means, you just enjoy to the fullest and look fabulous.</p>
+            <p className='text-bold text-lg'>Well I am just twenty years old.Just started my graduation very recently. I am very curious to know more and more about this technology.My goal is to keep learning and i will try to improve my skill everyday as much as i can.No matter what my main focus will be learning  more and more.</p>
         </div>
     );
 };

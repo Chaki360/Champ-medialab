@@ -20,7 +20,7 @@ const Register = () => {
         const name = nameRef.current.value
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
-        createUserWithEmailAndPassword(name, email, password);
+        createUserWithEmailAndPassword(email, password);
 
     }
     const navigate = useNavigate()
