@@ -46,7 +46,7 @@ const Login = () => {
                 <input ref={passwordRef} className='border' type="password" name="password" id="" placeholder="Enter your password" required />
                 <input className='rounded text-2xl text-center text-white bg-orange-500 hover:bg-orange-700' type="submit" value="Login to your account" />
             </form>
-            <h1 className='text-lg'>New to Champ PhotoLab?<span className=' text-red-500 hover:text-gray-700' onClick={navigateRegister}>Please Register</span></h1>
+            <h1 className='text-lg'>New to Champ MediaLab?<span className=' text-red-500 hover:text-gray-700' onClick={navigateRegister}>Please Register</span></h1>
             <h1 className='text-lg'>Forgot your password?<span className=' text-red-500 hover:text-gray-700' onClick={resetPassword}>Reset Now</span></h1>
             <SocialLogin></SocialLogin>
         </div>

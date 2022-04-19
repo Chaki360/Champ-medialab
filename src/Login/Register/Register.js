@@ -41,6 +41,7 @@ const Register = () => {
                 <input className='rounded text-center text-white bg-orange-500 hover:bg-orange-700' type="submit" value="Register to your account" />
             </form>
             <h1 className='text-lg'>Already have an account?<span className=' text-red-500 hover:text-gray-700' onClick={navigateLogin}>Please Login</span></h1>
+
         </div>
     );
 };
